@@ -1,0 +1,25 @@
+CONTRATO DAS APIs INTERNAS - EIXO 2
+Serviço de Usuário
+GET /v1/usuario/<id>
+Resposta esperada:
+{
+ "id": 1,
+ "nome": "Ana"
+}
+Serviço de Produto
+GET /v1/produto/<id>
+Resposta esperada:
+{
+ "id": 10,
+ "nome": "Notebook",
+ "preco": 3500.00
+}
+Serviço de Pedido
+GET /v1/pedido/<id_usuario>/<id_produto>
+Resposta esperada:
+{
+ "usuario": "Ana",
+ "produto": "Notebook",
+ "preco": 3500.00,
+ "status": "pedido gerado"
+}
