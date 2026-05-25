@@ -20,7 +20,7 @@ def pedido():
 def gerar_pedido(id_usuario, id_produto):
     try:
         resposta_usuario = requests.get(
-            f"{URL_USUARIO}/v1/usuarios/{id_usuario}",
+            f"{URL_USUARIO}/v2/usuarios/{id_usuario}",
             timeout=2
         )
 
@@ -38,7 +38,7 @@ def gerar_pedido(id_usuario, id_produto):
         produto = resposta_produto.json()
 
         pedido = {
-            "usuario": usuario["nome"],
+            "usuario": usuario["nome_completo"],
             "produto": produto["nome"],
             "preco": produto["preco"],
             "status": "pedido gerado"
