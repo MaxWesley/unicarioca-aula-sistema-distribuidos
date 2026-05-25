@@ -12,7 +12,7 @@ produtos = {
 def listar_produtos():
     return jsonify(list(produtos.values()))
 
-@app.route("/v1/produto/<int:id_produto>")
+@app.route("/v1/produtos/<int:id_produto>")
 def buscar_produto_id(id_produto):
     produto = produtos.get(id_produto)
 
@@ -22,4 +22,4 @@ def buscar_produto_id(id_produto):
     return jsonify(produto)
 
 if __name__ == "__main__":
-    app.run(port=5003)
+    app.run(port=5002)

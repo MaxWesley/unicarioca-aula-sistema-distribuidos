@@ -8,7 +8,7 @@ usuarios = {
     3: {"id": 3, "nome": "Carla"},
 }
 
-@app.route("/v1/usuario/<int:id_usuario>")
+@app.route("/v1/usuarios/<int:id_usuario>")
 def buscar_usuario(id_usuario):
     usuario = usuarios.get(id_usuario)
 
@@ -19,9 +19,9 @@ def buscar_usuario(id_usuario):
 
 
 
-@app.route("/usuario")
-def usuario():
-    return jsonify({"usuario": "Max"})
+@app.route("/v1/usuarios")
+def listar_usuarios():
+    return jsonify(list(usuarios.values()))
 
 if __name__ == "__main__":
     app.run(port=5001)
