@@ -1,10 +1,12 @@
 from flask import Flask, jsonify
 import requests
 
+import os
+
 app = Flask(__name__)
 
-URL_USUARIO = "http://localhost:5001"
-URL_PRODUTO = "http://localhost:5002"
+URL_USUARIO = os.environ.get("URL_USUARIO", "http://localhost:5001")
+URL_PRODUTO = os.environ.get("URL_PRODUTO", "http://localhost:5002")
 
 @app.route("/pedido")
 def pedido():
