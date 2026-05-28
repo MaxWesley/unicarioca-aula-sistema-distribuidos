@@ -1,0 +1,17 @@
+{"tipo": "pedido_criado", "pedido_id": 200}
+{"tipo": "pedido_criado", "pedido_id": 201}
+{"tipo": "pedido_criado", "pedido_id": 202}
+{"tipo": "pedido_criado", "pedido_id": 203}
+{"tipo": "pedido_criado", "pedido_id": 204}
+{"tipo": "pedido_criado", "pedido_id": 205}
+{"tipo": "pedido_criado", "pedido_id": 206}
+{"tipo": "pedido_criado", "pedido_id": 207}
+{"tipo": "pedido_criado", "pedido_id": 208}
+{"tipo": "pedido_criado", "pedido_id": 209}
+{"tipo": "pedido_criado", "pedido_id": 210}
+{"tipo": "pedido_criado", "pedido_id": 211}
+{"tipo": "pedido_criado", "pedido_id": 212}
+{"tipo": "pedido_criado", "pedido_id": 214}
+{"tipo": "pedido_criado", "pedido_id": 215}
+{"tipo": "pedido_criado", "pedido_id": 216}
+{"tipo": "pedido_criado", "pedido_id": 400, "cliente": "Ana", "valor": 3500}
