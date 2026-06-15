@@ -15,3 +15,4 @@
 {"tipo": "pedido_criado", "pedido_id": 215}
 {"tipo": "pedido_criado", "pedido_id": 216}
 {"tipo": "pedido_criado", "pedido_id": 400, "cliente": "Ana", "valor": 3500}
+{"tipo": "pedido_criado", "pedido_id": 412, "cliente": "Ana", "valor": 3500}
